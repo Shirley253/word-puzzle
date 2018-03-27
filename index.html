@@ -11,7 +11,25 @@
   <body>
     <div class="container">
       <h1>Word Puzzle</h1>
-      
+
+      <form id="vowel">
+        <p>Please type your text here for a puzzle:</p>
+        <div class="form-group">
+          <label for="labelTextBox1">Sentence:</label>
+          <input type="text" class="form-control" id="sentence">
+        </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" id="hide">Hide vowels!!!</button>
+
+        </form>
+
+        <!-- <ul id=thingsList> List of Grocery Items -->
+        <div id="result">
+          <blockquote>
+            <h4>Based on your sentence, your puzzled output is: <span id="puzzle"></span></h4>
+
+          </blockquote>
+        </div>
 
     </div>
   </body>
